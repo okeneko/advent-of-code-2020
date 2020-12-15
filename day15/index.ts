@@ -1,5 +1,4 @@
 const input: number[] = [0, 1, 4, 13, 15, 12, 16];
-// const input: number[] = [0, 3, 6];
 
 const part1 = () => {
   let i: number = 0;
@@ -20,7 +19,7 @@ const part1 = () => {
   return a[i - 1];
 };
 
-console.log(`[Part 1] What will the te 2020th number spoken?`, part1()); // 1665
+console.log(`[Part 1] What will be the 2020th number spoken?`, part1()); // 1665
 
 const part2 = (max: number) => {
   let mem: number[] = Array.from({ length: max }, (_) => 0);
