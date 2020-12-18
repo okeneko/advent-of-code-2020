@@ -2,3 +2,4 @@ node_modules/
 .ignore/
 **/testinput.txt
 **/output.txt
+day17
