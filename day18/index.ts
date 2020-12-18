@@ -85,4 +85,4 @@ const parseFirstAdd = (a) => {
 
 const part2 = () => input.reduce((a, v) => a + evaluate(parseFirstAdd(v)), 0);
 
-console.log(`[Part 2]`, part2()); //
+console.log(`[Part 2]`, part2()); // 321176691637769
